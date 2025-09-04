@@ -91,10 +91,10 @@
 
         kigou {
             bindings = <
-&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)                      &kp LS(NUMBER_6)  &kp LS(N7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)   &kp LS(NUMBER_0)
-&kp GRAVE         &trans            &trans            &trans            &trans            &trans      &trans  &kp MINUS         &kp EQUAL   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON
-&trans            &trans            &trans            &trans            &trans            &trans      &trans  &kp UNDERSCORE    &kp PLUS    &kp LESS_THAN     &kp GREATER_THAN   &kp NON_US_BACKSLASH
-&trans            &trans            &trans            &trans            &trans            &trans      &trans  &trans                                                             &trans
+&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)                       &kp LS(NUMBER_6)  &kp LS(N7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)   &kp LS(NUMBER_0)
+&kp GRAVE         &trans            &trans            &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans      &trans  &kp MINUS         &kp EQUAL   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON
+&trans            &trans            &trans            &trans            &trans             &trans      &trans  &kp UNDERSCORE    &kp PLUS    &kp LESS_THAN     &kp GREATER_THAN   &kp NON_US_BACKSLASH
+&trans            &trans            &trans            &trans            &trans             &trans      &trans  &trans                                                             &trans
             >;
         };
 
