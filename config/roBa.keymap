@@ -71,10 +71,10 @@
 
         default_layer {
             bindings = <
-&mt LEFT_CONTROL Q  &kp W           &kp E         &kp R         &kp T                                                            &kp Y             &kp U  &lt 5 I    &kp O    &kp P
-&mt LEFT_CONTROL A  &kp S           &kp D         &kp F         &kp G               &kp LS(LG(S))               &kp MINUS        &kp H             &kp J  &kp K      &lt 4 L  &kp ENTER
-&mt LEFT_SHIFT Z    &kp X           &kp C         &kp V         &lt 4 B             &kp SPACE                   &kp BACKSPACE    &kp N             &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL           &kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 INT_MUHENKAN  &lt_to_layer_0 3 SPACE      &lt 6 BACKSPACE  &lt 1 INT_HENKAN                             &kp RCTRL
+&mt LEFT_CONTROL Q  &kp W           &kp E         &kp R         &kp T                                                     &kp Y  &kp U  &lt 5 I    &kp O    &kp P
+&mt LEFT_CONTROL A  &kp S           &kp D         &kp F         &kp G        &kp LS(LG(S))               &kp MINUS        &kp H  &kp J  &kp K      &lt 4 L  &kp ENTER
+&mt LEFT_SHIFT Z    &kp X           &kp C         &kp V         &lt 4 B      &kp SPACE                   &kp BACKSPACE    &kp N  &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LCTRL           &kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 SPACE  &lt_to_layer_0 3 SPACE      &lt 6 BACKSPACE  &mo 1                             &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
@@ -100,10 +100,10 @@
 
         FUNCTION {
             bindings = <
-&kp F1          &kp F2           &kp F3      &kp F4  &kp F5                      &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp K_APP       &kp PRINTSCREEN  &trans      &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &trans           &kp LA(F4)  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans           &trans      &trans  &trans  &trans      &trans  &trans                          &trans
+&kp F1          &kp F2           &kp F3      &kp F4  &kp F5                      &kp F6  &kp F7  &kp F8  &kp F9       &kp F10
+&kp K_APP       &kp PRINTSCREEN  &trans      &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp K_SLEEP  &trans
+&kp LEFT_SHIFT  &trans           &kp LA(F4)  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans       &trans
+&trans          &trans           &trans      &trans  &trans  &trans      &trans  &trans                               &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
