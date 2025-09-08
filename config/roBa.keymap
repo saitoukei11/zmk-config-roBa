@@ -71,7 +71,7 @@
         };
 
         mouse_motion {
-            pointer_speed = <200>;   // デフォルト100前後 → 倍速
+            pointer_speed = <300>;   // デフォルト100前後 → 倍速
         };
     };
 
