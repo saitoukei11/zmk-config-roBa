@@ -69,6 +69,9 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+        mouse_motion {
+            pointer_speed = <200>;   // デフォルト100前後 → 倍速
+        };
     };
 
     keymap {
