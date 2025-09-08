@@ -4,8 +4,12 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &mt {
-    flavor = "balanced";
-    quick-tap-ms = <0>;
+    flavor = "tap-preferred";   // a など文字キーはタップを確実に
+    tapping-term-ms = <200>;    // しっかり a を拾える時間
+};
+&lt {
+    flavor = "hold-preferred";  // レイヤー切替は即効性を重視
+    tapping-term-ms = <150>;    // 短めにして切替を素早く
 };
 
 &trackball {
