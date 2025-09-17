@@ -49,6 +49,11 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        Layer3 {
+            bindings = <&lt 3 RCTRL>;
+            key-positions = <38 41>;
+        };
     };
 
     macros {
