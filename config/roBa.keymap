@@ -15,7 +15,7 @@
 
 &msc {
     delay-ms = <20>;              // スクロール入力間隔
-    steps-per-scroll = <2>;       // スクロール1回あたりのステップ数
+    scroll-steps = <2>;
 };
 
 &trackball {
