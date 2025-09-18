@@ -13,10 +13,6 @@
     tapping-term-ms = <150>;    // 短めにして切替を素早く
 };
 
-&msc {
-    delay-ms = <20>;              // スクロール入力間隔
-};
-
 &trackball {
     // automouse-layer = <4>;
 
