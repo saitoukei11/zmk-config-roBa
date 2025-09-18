@@ -1,8 +1,8 @@
+#include <behaviors/rgbled_widget.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <behaviors/rgbled_widget.dtsi>
 
 &mt {
     flavor = "tap-preferred";   // a など文字キーはタップを確実に
@@ -46,14 +46,19 @@
             key-positions = <12 13>;
         };
 
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
-        };
-
         Layer3 {
             bindings = <&mo 3>;
             key-positions = <38 41>;
+        };
+
+        HENKAN {
+            bindings = <&kp INT_HENKAN>;
+            key-positions = <31 32>;
+        };
+
+        MUHENKAN {
+            bindings = <&kp INT_MUHENKAN>;
+            key-positions = <23 24>;
         };
     };
 
@@ -144,10 +149,10 @@
 
         layer_6 {
             bindings = <
-&trans  &kp N7        &kp N8        &kp N9        &ind_bat                         &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4
-&trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans      &bootloader  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans          &trans          &kp PG_DN     &kp PG_UP        &bt BT_CLR
-&trans  &kp N0        &trans        &trans        &trans  &trans      &trans       &trans                                                         &bt BT_CLR_ALL
+&trans  &kp N7        &kp N8        &kp N9        &ind_bat                           &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4
+&trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans    &trans      &bootloader  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &trans      &bootloader  &trans          &trans          &kp PG_DN     &kp PG_UP        &bt BT_CLR
+&trans  &kp N0        &trans        &trans        &trans    &trans      &trans       &trans                                                         &bt BT_CLR_ALL
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
