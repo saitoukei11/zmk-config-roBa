@@ -13,8 +13,11 @@
     tapping-term-ms = <150>;    // 短めにして切替を素早く
 };
 
-&msc {
+&pointing_device {
     pointer_speed = <200>; // デフォルト100前後
+};
+
+&msc {
     delay-ms = <20>;              // スクロール入力間隔
     steps-per-scroll = <2>;       // スクロール1回あたりのステップ数
 };
