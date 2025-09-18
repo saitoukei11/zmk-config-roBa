@@ -19,8 +19,6 @@
 };
 
 &trackball {
-    pointer_speed = <200>; // デフォルト100前後
-
     // automouse-layer = <4>;
 
     scroll-layers = <5>;
