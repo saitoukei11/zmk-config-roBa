@@ -15,11 +15,7 @@
 
 &msc {
     pointer_speed = <200>; // デフォルト100前後
-};
-
-&mouse_scroll {
-    acceleration-exponent = <1>;  // スクロール加速（1 = 無効）
-    delay-ms = <16>;              // スクロール入力間隔
+    delay-ms = <20>;              // スクロール入力間隔
     steps-per-scroll = <2>;       // スクロール1回あたりのステップ数
 };
 
