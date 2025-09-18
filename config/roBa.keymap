@@ -15,7 +15,6 @@
 
 &msc {
     delay-ms = <20>;              // スクロール入力間隔
-    scroll-steps = <2>;
 };
 
 &trackball {
