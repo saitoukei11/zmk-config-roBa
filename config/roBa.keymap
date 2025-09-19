@@ -62,7 +62,7 @@
         };
 
         Gengo {
-            bindings = <&kp INTERNATIONAL_9>;
+            bindings = <&kp INTERNATIONAL_1>;
             key-positions = <24 25>;
         };
     };
