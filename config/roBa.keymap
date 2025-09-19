@@ -61,8 +61,8 @@
             key-positions = <23 24>;
         };
 
-        Gengo {
-            bindings = <&kp INTERNATIONAL_1>;
+        iOS_GENGO {
+            bindings = <&kp LG(SPACE)>;
             key-positions = <24 25>;
         };
     };
