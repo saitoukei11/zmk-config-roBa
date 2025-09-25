@@ -65,6 +65,11 @@
             bindings = <&kp LC(SPACE)>;
             key-positions = <24 25>;
         };
+
+        quotes {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <20 21>;
+        };
     };
 
     macros {
