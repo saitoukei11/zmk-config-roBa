@@ -68,7 +68,7 @@
 
         quotes {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <20 21>;
+            key-positions = <20 19>;
         };
     };
 
