@@ -6,7 +6,7 @@
 
 &mt {
     flavor = "tap-preferred";   // a など文字キーはタップを確実に
-    tapping-term-ms = <200>;    // しっかり a を拾える時間
+    // tapping-term-ms = <200>;    // しっかり a を拾える時間
 };
 
 &lt {
