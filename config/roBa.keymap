@@ -80,6 +80,11 @@
             bindings = <&kp LCTRL>;
             key-positions = <10 11>;
         };
+
+        ctrl_shift {
+            bindings = <&kp LS(LCTRL)>;
+            key-positions = <22 23>;
+        };
     };
 
     macros {
