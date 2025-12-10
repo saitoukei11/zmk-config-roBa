@@ -76,11 +76,6 @@
             key-positions = <20 21>;
         };
 
-        left_ctrl {
-            bindings = <&kp LCTRL>;
-            key-positions = <10 11>;
-        };
-
         ctrl_shift {
             bindings = <&kp LS(LCTRL)>;
             key-positions = <22 23>;
